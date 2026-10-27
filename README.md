@@ -409,10 +409,10 @@ A public repository can be read, and cloned, with no account. This one is
 on the hub too:
 
 ```bash
-braid hub show -R kikocis/elffuss-braid     # its description, counts and README
-braid hub log -R kikocis/elffuss-braid      # its history, newest first
-braid hub cat -R kikocis/elffuss-braid Cargo.toml
-braid hub clone kikocis/elffuss-braid spec --paths docs/spec   # only the trees under docs/spec
+braid hub show -R utopia-ia/elffuss-braid     # its description, counts and README
+braid hub log -R utopia-ia/elffuss-braid      # its history, newest first
+braid hub cat -R utopia-ia/elffuss-braid Cargo.toml
+braid hub clone utopia-ia/elffuss-braid spec --paths docs/spec   # only the trees under docs/spec
 ```
 
 Landing from several machines takes an account, with GitHub sign-in:
